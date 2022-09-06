@@ -6,8 +6,6 @@
 # Keys that are not common should be left out. Use the following code to test your function, 
 # but remember that your function should for all str->int dict inputs, not just the test here.
 
-
-
 def get_combined_dict(dict_one, dict_two):
     #for all keys in dict one - check if in dict two
     common_dict = {}
