@@ -7,12 +7,10 @@
 # but remember that your function should for all str->int dict inputs, not just the test here.
 
 def get_combined_dict(dict_one, dict_two):
-    #for all keys in dict one - check if in dict two
     common_dict = {}
     for key in dict_one:
         if key in dict_two:
           common_dict[key] = dict_one[key] + dict_two[key]  
-    
     return common_dict
 
 my_dict_1 = {'a': 5, 'b': 12, 'c': 3, 'd': 9}

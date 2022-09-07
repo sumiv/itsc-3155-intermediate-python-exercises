@@ -19,4 +19,4 @@ while index < 6:
     else:
         sum += user_input
 
-print(sum)
+print('Your sum is',sum)
